@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
+body {
+  background: #f9f9f9;
+  background-image: url("./images/background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  margin-top: 40px;
+  padding-left: 40px;
+  font-size: 26px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  background: #ffff;
+  border-radius: 15px;
+  height: 520px;
+  width: 380px;
+  padding: 30px 90px 30px 90px;
+  box-shadow: rgba(157, 157, 157, 0.12) 0px 7px 29px 0px;
+}
+.logo {
+  display: block;
+  text-align: center;
+  font-size: 18px;
+}
+.solid-logo {
+  height: 48px;
+  width: 51px;
+}
+.content-header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.content-title {
+  font-size: 26px;
+  font-weight: 500;
+  margin-left: 15px;
+  width: 90%;
+}
+.content-header div p {
+  margin: 0;
+  font-size: 14px;
+}
+
+form {
+  margin-top: 24px;
+}
+
+form label {
+  display: block;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+form input,
+select {
+  margin-bottom: 10px;
+  color: #8e8e8e;
+  margin-right: 10px;
+  padding: 0px 8px;
+  width: 380px;
+  height: 37px;
+  border: 1px solid #e1dcdc;
+  border-radius: 6px;
+}
+.company {
+  width: 362px;
+}
+span {
+  background-color: #f0f0f0;
+  margin-left: 13px;
+  padding-top: 13px;
+  padding: 2px 5px 2px 5px;
+  border-radius: 6px;
+}
+span:hover {
+  background-color: #3766e8;
+  color: #ffff;
+}
+
+.form-submit {
+  margin-top: 34px;
+  background: #3766e8;
+  color: #ffff;
+}
+
+footer {
+  padding: 100px 0px 30px 0px;
+  text-align: center;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~
+ Mobile Responsive Design
+ ~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+@media only screen and (max-width: 500px) {
+  body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 100% 100%;
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding-left: 0px;
+  }
+  nav img {
+    width: 110px;
+  }
+  .content {
+    width: 310px;
+    padding: 15px;
+    height: 540px;
+  }
+  form input,
+  select {
+    width: 300px;
+  }
+  .company {
+    width: 282px;
+  }
+  span {
+    margin-left: 3px;
+  }
+}
